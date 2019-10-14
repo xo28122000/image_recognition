@@ -1,0 +1,11 @@
+data:
+
+- https://www.kaggle.com/prasunroy/natural-images/data
+
+important links:
+
+- https://medium.com/predict/object-classification-from-scratch-using-tensorflow-and-keras-964e42e898b2
+
+- https://www.kaggle.com/jessicali9530/stanford-cars-dataset/download
+
+-
