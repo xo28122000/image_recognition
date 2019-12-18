@@ -1,0 +1,23 @@
+What should the shape of an input array be for a CNN to classify images?
+
+
+Neural networks work with tensors. A tensor is a multidimensional array in which your data is stored.
+
+In the case of images, neural networks must apply 2-dimensional operations like convolutions. In the frameworks I've worked with, that means that your data has to be stored in a 4-dimensional tensor. Among these dimensiones you'll find 𝑁
+N
+(number of channels of the image, which is usually 3), 𝐻
+H
+ (height of the image), 𝑊
+W
+ (width of the image) and 𝐵
+B
+ (batch size). Different frameworks use these parameters in different orders, some are BCHW while others are CHWB. Pytorch is the first kind, so a single RGB image looks like (1,3,512,512), and 10 concatenated images along the batch dimension looks like (10,3,512,512).
+
+Hope I helped.
+
+
+
+
+
+
+
